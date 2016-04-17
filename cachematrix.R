@@ -4,10 +4,10 @@
 ## This function make a "matrix" that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
-    i <-Null
+    i <-NULL
     set <-function(y){
       x<<-y
-      i <<-Null
+      i <<-NULL
 }
     get<-function()x
     setInverse<-function(inverse) i <<-inverse
